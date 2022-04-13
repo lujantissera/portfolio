@@ -7,15 +7,34 @@
 }
 
 
-body{
-    background: linear-gradient(60deg, beige,);
 
+h1{
+    text-align: center;
+}
+
+body{
+    background-color: linear-gradient rgb(195, 195, 51) white;
+
+}
+.p1{
+    text-align: center;
+}
+img{
+    border-radius: 1rem;
+    width: 150px;
+    height: 150px;
 }
 
 .grid-item{
-    border: 1px;
+    border: 1px solid black;
     border-radius: 1rem;
-    display: grid;
-    grid-template-columns: 150px, 1fr, 1fr;
+    display: flex;
+    justify-content: center;
+    background-color: beige;
+    justify-items: center;
+    align-content: space-between;
+    
+    grid-template-columns: 50px, 1fr, 1fr;
 
 }
+
