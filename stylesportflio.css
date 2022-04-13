@@ -1,0 +1,21 @@
+
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(360px,1fr));
+    gap: 1rem;
+    
+}
+
+
+body{
+    background: linear-gradient(60deg, beige,);
+
+}
+
+.grid-item{
+    border: 1px;
+    border-radius: 1rem;
+    display: grid;
+    grid-template-columns: 150px, 1fr, 1fr;
+
+}
